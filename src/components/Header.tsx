@@ -25,7 +25,7 @@ const Header = () => {
         <div>
           {/* search */}
           {/* theme toggle */}
-          <div
+          <button
             className={`flex items-center transition-transform duration-500 cursor-pointer ${
               isDark ? "rotate-180" : "rotate-0"
             }`}
@@ -36,7 +36,7 @@ const Header = () => {
             ) : (
               <Moon className="size-6 text-slate-900 rotate-0 transition-all" />
             )}
-          </div>
+          </button>
         </div>
       </div>
     </header>
